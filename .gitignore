@@ -1,0 +1,43 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+!.env.test
+*credentials*.json
+*service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Generic Dependency Scaffolding & Build Outputs
+node_modules/
+dist/
+build/
+target/
+out/
+coverage/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Terraform & Infrastructure State
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+
+# Agent Caches & Scratchpad
+.agents/cache/
+*.sqlite
+*.sqlite3
+*.sqlite-*
+scratch/
+tmp/
+
+# OS & et cetera
+*~
